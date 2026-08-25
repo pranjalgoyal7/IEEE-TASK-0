@@ -38,3 +38,9 @@ for i in range(0,n):
     if list1[i] % 2 != 0:
         odd_count += 1
 print("number of odd elements is: ",odd_count)
+
+#reverse of the list
+rev_list = []
+for i in range(n-1,-1,-1):
+    rev_list.append(list1[i])
+print("reverse of the list is: ",rev_list)
