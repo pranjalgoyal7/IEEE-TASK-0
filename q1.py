@@ -24,3 +24,17 @@ for i in range(0,n):
     sum += list1[i]
 
 print("sum of elements is: ",sum)
+
+#number of even elements
+even_count = 0
+for i in range(0,n):
+    if list1[i] % 2 == 0:
+        even_count += 1
+print("number of even elements is: ",even_count)
+
+#number of odd elements
+odd_count = 0
+for i in range(0,n):
+    if list1[i] % 2 != 0:
+        odd_count += 1
+print("number of odd elements is: ",odd_count)
