@@ -14,6 +14,6 @@ def isPrime(n):
 N = int(input("enter number upto which prime numbers are to be printed: "))
 for i in range(2,N):
     if isPrime(i):
-        print(i, end="\n")
+        print(i, end=" ")
     else:
         continue
